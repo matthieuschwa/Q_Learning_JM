@@ -1,6 +1,6 @@
-# Hero Game : Apprentissage par renforcement avec Q-Learning
+# Q_Learning_JM : Apprentissage par renforcement avec Q-Learning
 
-<img src="src/assets/read.gif" alt="Démonstration du projet" width="500">
+<img src="src/assets/gif_readme.gif" alt="Démonstration du projet" width="500">
 
 ## Table des matières
 1. [Aperçu](#aperçu)
@@ -30,13 +30,15 @@ Les monstres (ici policiers) ainsi que l'agent (ici le pirate) peuvent se dépla
 Le projet est organisé comme suit :
 
 ```
-Q_Pirate/
+Q_Learning_JM/
 │
 ├── src/
 │   ├── init.py 
 │   ├── env.py # Environnement personnalisé Gym pour le jeu
 │   ├── train.py # Script d'entraînement pour l'agent Q-Learning
 │   ├── test.py # Script de test pour évaluer l'agent entraîné
+│   ├── visualisation.py # Script de test pour visualiser le chemin de l'agent entrainé
+│   ├── callbacks.py # Script pour le suivi des performances du modèle de Q-Learning
 │   ├── assets/ # Goudies
 │       ├── hero.png
 │       ├── treasure.png
@@ -59,8 +61,8 @@ Q_Pirate/
 ### Étapes
 1. Clonez le dépôt :
    ```
-   git clone https://github.com/votre-repo/Q_Pirate.git
-   cd Q_Pirate
+   git clone https://github.com/matthieuschwa/Q_Learning_JM.git
+   cd Q_Learning_JM
    ```
 2. Créez et activez un environnement virtuel :
    ```
